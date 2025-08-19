@@ -1,11 +1,6 @@
 [README.MD](https://github.com/user-attachments/files/21857591/README.MD)# Code for VIAStress
 
 The code for our proposed method will be released once we receive the review feedback.
-> Reference Paper: Lin X, Zhou C, Wu J, et al. Towards flexible and adaptive neural process for cold-start recommendation[J]. IEEE Transactions on Knowledge and Data Engineering, 2023.
-
-> Reference Paper: Dong H, Nejjar I, Sun H, et al. SimMMDG: A simple and effective framework for multi-modal domain generalization[J]. Advances in Neural Information Processing Systems, 2023, 36: 78674-78695.
-
-> Reference Code (official): https://github.com/donghao51/SimMMDG
 
 ## encoder structure reference
 > Sánchez-Reolid R, de la Rosa F L, López M T, et al. One-dimensional convolutional neural networks for low/high arousal classification from electrodermal activity[J]. Biomedical Signal Processing and Control, 2022, 71: 103203.
