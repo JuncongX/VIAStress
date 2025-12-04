@@ -1,0 +1,45 @@
+nohup python -u train_bcsa_multi.py --y_dim 2 --n_bcsa 3 > BCSA_2.out &
+nohup python -u train_bcsa_multi.py --y_dim 3 --n_bcsa 2 > BCSA_3.out &
+nohup python -u train_bcsa_multi.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --n_bcsa 3 --k 7 > BCSA_2_UP2.out &
+nohup python -u train_bcsa_multi.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --n_bcsa 4 --k 7 > BCSA_2_UP3.out &
+nohup python -u train_bcsa_multi.py --dataset_name can_stress --y_dim 2 --n_bcsa 3 > BCSA_2_CS.out &
+nohup python -u train_bcsa_multi.py --dataset_name verbio --y_dim 2 --n_bcsa 3 --k 5 --epoch 150 > BCSA_2_VB.out &
+
+python confusion_matrix_bcsa.py --dataset_name wesad --k 5 --y_dim 2 --n_bcsa 3
+python confusion_matrix_bcsa.py --dataset_name wesad --k 5 --y_dim 3 --n_bcsa 2
+python confusion_matrix_bcsa.py --dataset_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2 --n_bcsa 3
+python confusion_matrix_bcsa.py --dataset_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3 --n_bcsa 4
+python confusion_matrix_bcsa.py --dataset_name can_stress --k 5 --y_dim 2 --n_bcsa 3
+python confusion_matrix_bcsa.py --dataset_name verbio --k 5 --y_dim 2 --n_bcsa 3
+
+python cross_dataset_bcsa.py --model_name wesad --dataset_name ubfc_phys --k 5 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 2
+python cross_dataset_bcsa.py --model_name wesad --dataset_name ubfc_phys --k 5 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 3
+python cross_dataset_bcsa.py --model_name ubfc_phys --dataset_name wesad --k 7 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 2
+python cross_dataset_bcsa.py --model_name ubfc_phys --dataset_name wesad --k 7 --y_dim 2 --n_bcsa 4 --ubfc_phys_task 3
+python cross_dataset_bcsa.py --model_name wesad --dataset_name verbio --k 5 --y_dim 2 --n_bcsa 3
+python cross_dataset_bcsa.py --model_name ubfc_phys --dataset_name verbio --k 7 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 2
+python cross_dataset_bcsa.py --model_name ubfc_phys --dataset_name verbio --k 7 --y_dim 2 --n_bcsa 4 --ubfc_phys_task 3
+python cross_dataset_bcsa.py --model_name verbio --dataset_name wesad --k 5 --y_dim 2 --n_bcsa 3
+python cross_dataset_bcsa.py --model_name verbio --dataset_name ubfc_phys --k 5 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 2
+python cross_dataset_bcsa.py --model_name verbio --dataset_name ubfc_phys --k 5 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 3
+
+python perform_on_lowq_bcsa.py --model_name wesad --k 5 --y_dim 2 --n_bcsa 3 --dataset_name wesad
+python perform_on_lowq_bcsa.py --model_name wesad --k 5 --y_dim 3 --n_bcsa 2 --dataset_name wesad
+python perform_on_lowq_bcsa.py --model_name wesad --k 5 --y_dim 2 --n_bcsa 3 --dataset_name ubfc_phys --ubfc_phys_task 2
+python perform_on_lowq_bcsa.py --model_name ubfc_phys --k 7 --y_dim 2 --n_bcsa 3 --ubfc_phys_task 2 --dataset_name ubfc_phys
+python perform_on_lowq_bcsa.py --model_name ubfc_phys --k 7 --y_dim 2 --n_bcsa 4 --ubfc_phys_task 3 --dataset_name ubfc_phys
+python perform_on_lowq_bcsa.py --model_name verbio --k 5 --y_dim 2 --n_bcsa 3 --dataset_name verbio
+python perform_on_lowq_bcsa.py --model_name verbio --k 5 --y_dim 2 --n_bcsa 3 --dataset_name ubfc_phys --ubfc_phys_task 2
+
+python perform_on_lq_bcsa.py --model_name wesad --k 5 --y_dim 2 --n_bcsa 3
+python perform_on_lq_bcsa.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2 --n_bcsa 3
+python perform_on_lq_bcsa.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3 --n_bcsa 4
+python perform_on_lq_bcsa.py --model_name verbio --k 5 --y_dim 2 --n_bcsa 3
+
+Dynamic Alignment and Fusion of Multimodal Physiological Patterns for Stress Recognition
+
+(unofficial) https://github.com/WillPowellUk/Modular-Multimodal-Stress-Detector/tree/master/src/ml_pipeline/models/attention_models
+
+https://ieeexplore.ieee.org/abstract/document/10167834/
+
+Zhang X, Wei X, Zhou Z, et al. Dynamic alignment and fusion of multimodal physiological patterns for stress recognition[J]. IEEE Transactions on Affective Computing, 2023, 15(2): 685-696.

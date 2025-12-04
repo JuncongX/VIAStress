@@ -1,0 +1,18 @@
+nohup python -u train_btl.py --y_dim 2 > BTL_2.out &
+nohup python -u train_btl.py --y_dim 3 > BTL_3.out &
+nohup python -u train_btl.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > BTL_2_UP2.out &
+nohup python -u train_btl.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > BTL_2_UP3.out &
+nohup python -u train_btl.py --dataset_name verbio --k 5 --y_dim 2 > BTL_2_VB.out &
+nohup python -u train_btl.py --dataset_name can_stress --y_dim 2 > BTL_2_CS.out &
+
+python confusion_matrix_btl.py --dataset_name wesad --k 5 --y_dim 2
+python confusion_matrix_btl.py --dataset_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2
+python confusion_matrix_btl.py --dataset_name can_stress --k 5 --y_dim 2
+python confusion_matrix_btl.py --dataset_name verbio --k 5 --y_dim 2
+
+python cross_dataset_btl.py --model_name wesad --dataset_name ubfc_phys --k 5 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_btl.py --model_name wesad --dataset_name verbio --k 5 --y_dim 2
+python cross_dataset_btl.py --model_name ubfc_phys --dataset_name wesad --k 7 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_btl.py --model_name ubfc_phys --dataset_name verbio --k 7 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_btl.py --model_name verbio --dataset_name wesad --k 5 --y_dim 2
+python cross_dataset_btl.py --model_name verbio --dataset_name ubfc_phys --k 5 --y_dim 2 --ubfc_phys_task 2

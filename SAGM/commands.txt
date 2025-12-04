@@ -1,0 +1,31 @@
+nohup python -u train_sagm.py --dataset_name wesad --k 5 --class_num 2 > SAGM_wesad_2.out &
+nohup python -u train_sagm.py --dataset_name wesad --k 5 --class_num 3 > SAGM_wesad_3.out &
+nohup python -u train_sagm.py --dataset_name ubfc_phys --k 7 --ubfc_phys_task 2 --class_num 2 > SAGM_ubfc_phys_2_UP2.out &
+nohup python -u train_sagm.py --dataset_name ubfc_phys --k 7 --ubfc_phys_task 3 --class_num 2 > SAGM_ubfc_phys_2_UP3.out &
+nohup python -u train_sagm.py --dataset_name ubfc_phys --k 7 --class_num 3 > SAGM_ubfc_phys_3.out &
+nohup python -u train_sagm.py --dataset_name can_stress --k 5 --class_num 2 > SAGM_can_stress_2.out &
+nohup python -u train_sagm.py --dataset_name verbio --k 5 --class_num 2 --steps 150 > SAGM_verbio_2.out &
+
+python confusion_matrix_sagm.py --dataset_name wesad --k 5 --algorithm SAGM --class_num 2
+python confusion_matrix_sagm.py --dataset_name ubfc_phys --k 7 --algorithm SAGM  --class_num 2 --ubfc_phys_task 2
+python confusion_matrix_sagm.py --dataset_name can_stress --k 5 --algorithm SAGM --class_num 2
+python confusion_matrix_sagm.py --dataset_name verbio --k 5 --algorithm SAGM --class_num 2
+
+python cross_dataset_sagm.py --cd w2u --k 5 --class_num 2 --algorithm SAGM --ubfc_phys_task 2
+python cross_dataset_sagm.py --cd u2w --k 7 --class_num 2 --algorithm SAGM --ubfc_phys_task 2
+python cross_dataset_sagm.py --cd v2w --k 5 --class_num 2 --algorithm SAGM
+python cross_dataset_sagm.py --cd v2u --k 5 --class_num 2 --algorithm SAGM --ubfc_phys_task 2
+python cross_dataset_sagm.py --cd w2v --k 5 --class_num 2 --algorithm SAGM
+python cross_dataset_sagm.py --cd u2v --k 7 --class_num 2 --algorithm SAGM --ubfc_phys_task 2
+
+python perform_on_lowq_sagm.py --model_name wesad --k 5 --y_dim 2 --dataset_name wesad
+python perform_on_lowq_sagm.py --model_name wesad --k 5 --y_dim 2 --dataset_name ubfc_phys --ubfc_phys_task 2
+python perform_on_lowq_sagm.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2 --dataset_name ubfc_phys
+python perform_on_lowq_sagm.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3 --dataset_name ubfc_phys
+python perform_on_lowq_sagm.py --model_name verbio --k 5 --y_dim 2 --dataset_name verbio
+python perform_on_lowq_sagm.py --model_name verbio --k 5 --y_dim 2 --dataset_name ubfc_phys --ubfc_phys_task 2
+
+python perform_on_lq_sagm.py --model_name wesad --k 5 --y_dim 2
+python perform_on_lq_sagm.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2
+python perform_on_lq_sagm.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3
+python perform_on_lq_sagm.py --model_name verbio --k 5 --y_dim 2

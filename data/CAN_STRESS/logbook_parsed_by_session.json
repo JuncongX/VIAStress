@@ -1,0 +1,2320 @@
+{
+  "1452541": [
+    {
+      "ID": 1,
+      "timestamp": 1644854760,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 1,
+      "timestamp": 1644859140,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 1,
+      "timestamp": 1644879600,
+      "Stress_Rating": 4,
+      "Type": "Sleep"
+    }
+  ],
+  "1463069": [
+    {
+      "ID": 2,
+      "timestamp": 1646399400,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 2,
+      "timestamp": 1646420640,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 2,
+      "timestamp": 1646436840,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1465010": [
+    {
+      "ID": 3,
+      "timestamp": 1646572920,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 3,
+      "timestamp": 1646592300,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 3,
+      "timestamp": 1646607120,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 3,
+      "timestamp": 1646607120,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    }
+  ],
+  "1463075": [
+    {
+      "ID": 4,
+      "timestamp": 1646354040,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646356680,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646384700,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646385420,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646389500,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646392140,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 4,
+      "timestamp": 1646406240,
+      "Stress_Rating": 9,
+      "Type": "Stress"
+    }
+  ],
+  "1467167": [
+    {
+      "ID": 5,
+      "timestamp": 1646805600,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 5,
+      "timestamp": 1646852400,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 5,
+      "timestamp": 1646867340,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1474424": [
+    {
+      "ID": 6,
+      "timestamp": 1647843600,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 6,
+      "timestamp": 1647852000,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 6,
+      "timestamp": 1647875700,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 6,
+      "timestamp": 1647903600,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1482498": [
+    {
+      "ID": 7,
+      "timestamp": 1648792800,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 7,
+      "timestamp": 1648828800,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 7,
+      "timestamp": 1648852200,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1476005": [
+    {
+      "ID": 8,
+      "timestamp": 1648020300,
+      "Stress_Rating": null,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 8,
+      "timestamp": 1648078440,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1482522": [
+    {
+      "ID": 9,
+      "timestamp": 1648512300,
+      "Stress_Rating": null,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648533300,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648533420,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648550700,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648552320,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648565400,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648567200,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648567620,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648571400,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648573800,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648575900,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648576500,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648585200,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648585500,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648588200,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648592760,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 9,
+      "timestamp": 1648593660,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1482490": [
+    {
+      "ID": 10,
+      "timestamp": 1648774800,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648775340,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648775520,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648810200,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648810320,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648822200,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 10,
+      "timestamp": 1648822500,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1487330": [
+    {
+      "ID": 11,
+      "timestamp": 1649205300,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 11,
+      "timestamp": 1649244600,
+      "Stress_Rating": 7,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 11,
+      "timestamp": 1649279220,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 11,
+      "timestamp": 1649284320,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1496787": [
+    {
+      "ID": 12,
+      "timestamp": 1650529320,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650533400,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650538200,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650538680,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650546300,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650547080,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650547440,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650555900,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 12,
+      "timestamp": 1650579840,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1493794": [
+    {
+      "ID": 13,
+      "timestamp": 1650213600,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 13,
+      "timestamp": 1650214800,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 13,
+      "timestamp": 1650216600,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 13,
+      "timestamp": 1650218700,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 13,
+      "timestamp": 1650235200,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1526420": [
+    {
+      "ID": 14,
+      "timestamp": 1654206960,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1517951": [
+    {
+      "ID": 15,
+      "timestamp": 1653094140,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653129480,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653130320,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653138840,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653140100,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653145260,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653146040,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653149700,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653150600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653159600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653160800,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653165780,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 15,
+      "timestamp": 1653168600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1529202": [
+    {
+      "ID": 16,
+      "timestamp": 1654341960,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 16,
+      "timestamp": 1654342200,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 16,
+      "timestamp": 1654343400,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 16,
+      "timestamp": 1654381800,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1517247": [
+    {
+      "ID": 17,
+      "timestamp": 1652992200,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 17,
+      "timestamp": 1653000600,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 17,
+      "timestamp": 1653003000,
+      "Stress_Rating": 9,
+      "Type": "Stress"
+    },
+    {
+      "ID": 17,
+      "timestamp": 1653003000,
+      "Stress_Rating": 9,
+      "Type": "Sleep"
+    }
+  ],
+  "1525872": [
+    {
+      "ID": 18,
+      "timestamp": 1654041600,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654079400,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654099800,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654100400,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654106700,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654107420,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654110900,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654111980,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654116300,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654119600,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 18,
+      "timestamp": 1654119900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1529194": [
+    {
+      "ID": 19,
+      "timestamp": 1654434600,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654435980,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654444980,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654445340,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654446000,
+      "Stress_Rating": 6,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654453920,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654454100,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654459860,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654462740,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654466400,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 19,
+      "timestamp": 1654471980,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1539693": [
+    {
+      "ID": 20,
+      "timestamp": 1655770440,
+      "Stress_Rating": 4,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 20,
+      "timestamp": 1655795580,
+      "Stress_Rating": 5,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 20,
+      "timestamp": 1655796060,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 20,
+      "timestamp": 1655803440,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 20,
+      "timestamp": 1655828460,
+      "Stress_Rating": 0,
+      "Type": "Exercise"
+    }
+  ],
+  "1550289": [
+    {
+      "ID": 21,
+      "timestamp": 1656196800,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1578416": [
+    {
+      "ID": 22,
+      "timestamp": 1661728260,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1585738": [
+    {
+      "ID": 23,
+      "timestamp": 1662850800,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1580323": [
+    {
+      "ID": 24,
+      "timestamp": 1661931480,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661933220,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661934600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661935980,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661940480,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661944380,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661946840,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661950260,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661956920,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661961600,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661965560,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661973600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661975400,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661975880,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 24,
+      "timestamp": 1661984880,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1581548": [
+    {
+      "ID": 25,
+      "timestamp": 1662202260,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662203640,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662213000,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662213720,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662214380,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662243360,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662246240,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 25,
+      "timestamp": 1662247200,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1581487": [
+    {
+      "ID": 26,
+      "timestamp": 1661997600,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 26,
+      "timestamp": 1661997600,
+      "Stress_Rating": 7,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 26,
+      "timestamp": 1662043500,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 26,
+      "timestamp": 1662055200,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 26,
+      "timestamp": 1662075360,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    }
+  ],
+  "1585732": [
+    {
+      "ID": 27,
+      "timestamp": 1662681600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662683400,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662684300,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662713700,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662714600,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662726300,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662727680,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662732000,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662733500,
+      "Stress_Rating": 8,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662737400,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662747600,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662750000,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662755700,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 27,
+      "timestamp": 1662757200,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1599299": [
+    {
+      "ID": 28,
+      "timestamp": 1664446680,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 28,
+      "timestamp": 1664451660,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 28,
+      "timestamp": 1664493180,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1589760": [
+    {
+      "ID": 29,
+      "timestamp": 1663453800,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1589361": [
+    {
+      "ID": 30,
+      "timestamp": 1663156620,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663156800,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663175580,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663175880,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663176300,
+      "Stress_Rating": 0,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663183500,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663184460,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663188900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663188900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 30,
+      "timestamp": 1663189140,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1599803": [
+    {
+      "ID": 31,
+      "timestamp": 1664473320,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 31,
+      "timestamp": 1664488080,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    }
+  ],
+  "1593477": [
+    {
+      "ID": 32,
+      "timestamp": 1663799700,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1592198": [
+    {
+      "ID": 33,
+      "timestamp": 1663653600,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 33,
+      "timestamp": 1663680000,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 33,
+      "timestamp": 1663703400,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 33,
+      "timestamp": 1663707600,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1590569": [
+    {
+      "ID": 34,
+      "timestamp": 1663459200,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 34,
+      "timestamp": 1663511880,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    }
+  ],
+  "1599809": [
+    {
+      "ID": 35,
+      "timestamp": 1664529000,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    }
+  ],
+  "1599814": [
+    {
+      "ID": 35,
+      "timestamp": 1664535600,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 35,
+      "timestamp": 1664539500,
+      "Stress_Rating": 9,
+      "Type": "Stress"
+    }
+  ],
+  "1599815": [
+    {
+      "ID": 35,
+      "timestamp": 1664662800,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1615753": [
+    {
+      "ID": 36,
+      "timestamp": 1666394760,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1605412": [
+    {
+      "ID": 37,
+      "timestamp": 1665189000,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665222060,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665228300,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665228840,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665230340,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665231480,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665251520,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 37,
+      "timestamp": 1665252120,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    }
+  ],
+  "1609070": [
+    {
+      "ID": 38,
+      "timestamp": 1665565200,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665567300,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665579600,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665580500,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665594420,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665594900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665601200,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665602280,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665606540,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665606960,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665612000,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665613200,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665617100,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665617640,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 38,
+      "timestamp": 1665617640,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1622559": [
+    {
+      "ID": 39,
+      "timestamp": 1666742400,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1614258": [
+    {
+      "ID": 40,
+      "timestamp": 1666175880,
+      "Stress_Rating": 6,
+      "Type": "Stress"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666175940,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666184040,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666206000,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666212600,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666216800,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666217400,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666222680,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666223100,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 40,
+      "timestamp": 1666223100,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1615760": [
+    {
+      "ID": 41,
+      "timestamp": 1666364100,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 41,
+      "timestamp": 1666395000,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1627909": [
+    {
+      "ID": 42,
+      "timestamp": 1667518740,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1627936": [
+    {
+      "ID": 43,
+      "timestamp": 1667554200,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667556240,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667557800,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667558520,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667559600,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667591700,
+      "Stress_Rating": 5,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667592180,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667602680,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667602800,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 43,
+      "timestamp": 1667603820,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1622546": [
+    {
+      "ID": 44,
+      "timestamp": 1666999200,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1649887": [
+    {
+      "ID": 46,
+      "timestamp": 1670323500,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 46,
+      "timestamp": 1670327100,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 46,
+      "timestamp": 1670333520,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 46,
+      "timestamp": 1670343960,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 46,
+      "timestamp": 1670364180,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 46,
+      "timestamp": 1670364180,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1669960": [
+    {
+      "ID": 47,
+      "timestamp": 1674497040,
+      "Stress_Rating": 0,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 47,
+      "timestamp": 1674512640,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1668741": [
+    {
+      "ID": 49,
+      "timestamp": 1674198600,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674198900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674200580,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674201240,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674201420,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674205920,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674206760,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674206880,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674211080,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674213420,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674218340,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674218580,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674220800,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674221400,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674222540,
+      "Stress_Rating": 4,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674223260,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674228000,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674228840,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674228960,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674243300,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674243840,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674246480,
+      "Stress_Rating": 0,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674248640,
+      "Stress_Rating": 0,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674253200,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674253320,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 49,
+      "timestamp": 1674254400,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1672354": [
+    {
+      "ID": 50,
+      "timestamp": 1674896400,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 50,
+      "timestamp": 1674929940,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 50,
+      "timestamp": 1674932400,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 50,
+      "timestamp": 1674946800,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1672337": [
+    {
+      "ID": 51,
+      "timestamp": 1674781020,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    }
+  ],
+  "1672914": [
+    {
+      "ID": 52,
+      "timestamp": 1674999720,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 52,
+      "timestamp": 1675000020,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 52,
+      "timestamp": 1675002000,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 52,
+      "timestamp": 1675026660,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 52,
+      "timestamp": 1675026960,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 52,
+      "timestamp": 1675035600,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1676909": [
+    {
+      "ID": 53,
+      "timestamp": 1675633800,
+      "Stress_Rating": 6,
+      "Type": "Sleep"
+    }
+  ],
+  "1684264": [
+    {
+      "ID": 56,
+      "timestamp": 1676501700,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1689122": [
+    {
+      "ID": 59,
+      "timestamp": 1677462300,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 59,
+      "timestamp": 1677527400,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    }
+  ],
+  "1783066": [
+    {
+      "ID": 74,
+      "timestamp": 1694088300,
+      "Stress_Rating": 6,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694110800,
+      "Stress_Rating": 7,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694118120,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694118600,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694126700,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694127480,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 74,
+      "timestamp": 1694131020,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    }
+  ],
+  "1791589": [
+    {
+      "ID": 76,
+      "timestamp": 1695978480,
+      "Stress_Rating": 6,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 76,
+      "timestamp": 1696025340,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 76,
+      "timestamp": 1696031520,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 76,
+      "timestamp": 1696031520,
+      "Stress_Rating": 4,
+      "Type": "Sleep"
+    }
+  ],
+  "1803044": [
+    {
+      "ID": 77,
+      "timestamp": 1698138180,
+      "Stress_Rating": 1,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698144060,
+      "Stress_Rating": 3,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698145800,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698146400,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698146940,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698148680,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698148860,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698152460,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698153600,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698158700,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698159300,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698174900,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698175800,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698178080,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698178380,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698185700,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698186900,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 77,
+      "timestamp": 1698190500,
+      "Stress_Rating": 0,
+      "Type": "Sleep"
+    }
+  ],
+  "1799463": [
+    {
+      "ID": 78,
+      "timestamp": 1697525580,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697525700,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697532240,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697532780,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697540040,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697540400,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 78,
+      "timestamp": 1697580000,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    }
+  ],
+  "1806717": [
+    {
+      "ID": 79,
+      "timestamp": 1698947880,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 79,
+      "timestamp": 1698948240,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 79,
+      "timestamp": 1698951660,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 79,
+      "timestamp": 1698956460,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 79,
+      "timestamp": 1698962100,
+      "Stress_Rating": null,
+      "Type": "Sleep"
+    }
+  ],
+  "1804739": [
+    {
+      "ID": 81,
+      "timestamp": 1698561900,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 81,
+      "timestamp": 1698594780,
+      "Stress_Rating": 5,
+      "Type": "Stress"
+    },
+    {
+      "ID": 81,
+      "timestamp": 1698606180,
+      "Stress_Rating": 8,
+      "Type": "Stress"
+    },
+    {
+      "ID": 81,
+      "timestamp": 1698611880,
+      "Stress_Rating": 7,
+      "Type": "Stress"
+    },
+    {
+      "ID": 81,
+      "timestamp": 1698620460,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    }
+  ],
+  "1810544": [
+    {
+      "ID": 82,
+      "timestamp": 1699488660,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699488660,
+      "Stress_Rating": 1,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699537620,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699540200,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699547400,
+      "Stress_Rating": 2,
+      "Type": "Exercise"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699562100,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699565820,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 82,
+      "timestamp": 1699570920,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_Start"
+    }
+  ],
+  "1808825": [
+    {
+      "ID": 83,
+      "timestamp": 1699394220,
+      "Stress_Rating": 2,
+      "Type": "Sleep"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699342620,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699342980,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699343340,
+      "Stress_Rating": 1,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699346040,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699346340,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699346640,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699357800,
+      "Stress_Rating": 4,
+      "Type": "Stress"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699362180,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699362420,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699366980,
+      "Stress_Rating": 2,
+      "Type": "Stress"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699373580,
+      "Stress_Rating": 3,
+      "Type": "Stress"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699373640,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699374300,
+      "Stress_Rating": 0,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699378260,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699379040,
+      "Stress_Rating": 8,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699380420,
+      "Stress_Rating": 6,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 83,
+      "timestamp": 1699381800,
+      "Stress_Rating": 2,
+      "Type": "Cannabis_End"
+    }
+  ],
+  "1811655": [
+    {
+      "ID": 84,
+      "timestamp": 1699913460,
+      "Stress_Rating": 4,
+      "Type": "Cannabis_Start"
+    },
+    {
+      "ID": 84,
+      "timestamp": 1699913880,
+      "Stress_Rating": 3,
+      "Type": "Cannabis_End"
+    },
+    {
+      "ID": 84,
+      "timestamp": 1699916040,
+      "Stress_Rating": 3,
+      "Type": "Sleep"
+    }
+  ]
+}

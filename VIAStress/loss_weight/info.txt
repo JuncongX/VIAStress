@@ -1,0 +1,49 @@
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_211_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_211_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_211_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_211_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 > VAStress_lossw_121_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 > VAStress_lossw_121_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 > VAStress_lossw_121_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 > VAStress_lossw_121_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 > VAStress_lossw_112_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 > VAStress_lossw_112_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 > VAStress_lossw_112_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 > VAStress_lossw_112_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_511_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_511_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_511_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_511_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 > VAStress_lossw_151_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 > VAStress_lossw_151_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 > VAStress_lossw_151_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 > VAStress_lossw_151_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --y_dim 2 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 > VAStress_lossw_115_2.out &
+nohup python -u train_vastress_loss_weight.py --y_dim 3 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 > VAStress_lossw_115_3.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 > VAStress_lossw_115_2_UP2.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 > VAStress_lossw_115_2_UP3.out &
+
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 --epoch 150 > VAStress_lossw_211_2_VB.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 --epoch 150 > VAStress_lossw_121_2_VB.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 --epoch 150 > VAStress_lossw_112_2_VB.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 --epoch 150 > VAStress_lossw_511_2_VB.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 --epoch 150 > VAStress_lossw_151_2_VB.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name verbio --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 --epoch 150 > VAStress_lossw_115_2_VB.out &
+
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.2 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_211_2_CS.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.2 --ct_w 0.1 > VAStress_lossw_121_2_CS.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.1 --ct_w 0.2 > VAStress_lossw_112_2_CS.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1 > VAStress_lossw_511_2_CS.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.05 --ct_w 0.1 > VAStress_lossw_151_2_CS.out &
+nohup python -u train_vastress_loss_weight.py --dataset_name can_stress --y_dim 2 --k 5 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 > VAStress_lossw_115_2_CS.out &
+
+
+python confusion_matrix_vastress_lossw.py --dataset_name wesad --k 5 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 --y_dim 2
+python confusion_matrix_vastress_lossw.py --dataset_name ubfc_phys --k 7 --y_dim 2 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05 --ubfc_phys_task 2
+python confusion_matrix_vastress_lossw.py --dataset_name verbio --k 5 --y_dim 2 --sc_w 0.1 --dl_w 0.1 --ct_w 0.05
+python confusion_matrix_vastress_lossw.py --dataset_name can_stress --k 5 --y_dim 2 --sc_w 0.05 --dl_w 0.1 --ct_w 0.1

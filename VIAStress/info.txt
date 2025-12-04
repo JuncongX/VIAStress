@@ -1,0 +1,99 @@
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_0.5_64_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_0.5_64_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_0.5_64_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_0.5_64_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_1_64_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_1_64_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_1_64_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_1_64_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_1.5_64_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_1.5_64_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_1.5_64_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_1.5_64_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_2_64_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_2_64_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_2_64_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_2_64_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_0.5_128_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_0.5_128_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_0.5_128_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_0.5_128_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_1_128_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_1_128_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_1_128_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_1_128_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_1.5_128_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_1.5_128_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_1.5_128_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_1.5_128_2_UP3.out &
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_2_128_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_2_128_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_2_128_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_2_128_2_UP3.out &
+
+python confusion_matrix_vaead_me.py --dataset_name wesad --k 5 --od 64 --exp 1 --y_dim 2
+python confusion_matrix_vaead_me.py --dataset_name wesad --k 5 --od 64 --exp 0.5 --y_dim 3
+python confusion_matrix_vaead_me.py --dataset_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2
+python confusion_matrix_vaead_me.py --dataset_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 0.5 --ubfc_phys_task 3
+
+python cross_dataset_vaead_me.py --model_name wesad --dataset_name ubfc_phys --k 5 --od 64 --y_dim 2 --exp 1.5 --ubfc_phys_task 2
+python cross_dataset_vaead_me.py --model_name ubfc_phys --dataset_name wesad --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2
+
+Reference paper: Dong H, Nejjar I, Sun H, et al. SimMMDG: A simple and effective framework for multi-modal domain generalization[J]. Advances in Neural Information Processing Systems, 2023, 36: 78674-78695.
+Reference code: https://github.com/donghao51/SimMMDG/blob/main/HAC-rgb-flow-audio/train_video_flow_audio_HAC_SimMMDG.py
+
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_2_64_2_UP2.out &
+
+
+nohup python -u train_vaead_me.py --y_dim 2 > VAEAD_me_1_64_2.out &
+nohup python -u train_vaead_me.py --y_dim 3 > VAEAD_me_0.5_64_3.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_me_1_64_2_UP2.out &
+nohup python -u train_vaead_me.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_me_0.5_64_2_UP3.out &
+
+nohup python -u train_vaead_me.py --dataset_name can_stress --y_dim 2 > VAEAD_me_0.5_64_2_CS.out &
+nohup python -u train_vaead_me.py --dataset_name can_stress --y_dim 2 > VAEAD_me_1_64_2_CS.out &
+nohup python -u train_vaead_me.py --dataset_name can_stress --y_dim 2 > VAEAD_me_1.5_64_2_CS.out &
+nohup python -u train_vaead_me.py --dataset_name can_stress --y_dim 2 > VAEAD_me_2_64_2_CS.out &
+
+python confusion_matrix_vaead_me.py --dataset_name can_stress --k 5 --od 64 --exp 1 --y_dim 2
+
+nohup python -u train_vaead_me.py --dataset_name verbio --k 5 --y_dim 2 --epoch 150 > VAEAD_me_0.5_64_2_VB.out &
+nohup python -u train_vaead_me.py --dataset_name verbio --k 5 --y_dim 2 --epoch 150 > VAEAD_me_1_64_2_VB.out &
+nohup python -u train_vaead_me.py --dataset_name verbio --k 5 --y_dim 2 --epoch 150 > VAEAD_me_1.5_64_2_VB.out &
+nohup python -u train_vaead_me.py --dataset_name verbio --k 5 --y_dim 2 --epoch 150 > VAEAD_me_2_64_2_VB.out &
+
+python confusion_matrix_vaead_me.py --dataset_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5
+python confusion_matrix_vaead_me.py --dataset_name verbio --k 5 --od 128 --y_dim 2 --exp 0.5
+
+python cross_dataset_vaead_me.py --model_name verbio --dataset_name wesad --k 5 --od 64 --y_dim 2 --exp 1.5
+python cross_dataset_vaead_me.py --model_name verbio --dataset_name ubfc_phys --k 5 --od 64 --y_dim 2 --exp 1.5 --ubfc_phys_task 2
+python cross_dataset_vaead_me.py --model_name ubfc_phys --dataset_name verbio --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2
+python cross_dataset_vaead_me.py --model_name ubfc_phys --dataset_name verbio --k 7 --od 64 --y_dim 2 --exp 0.5 --ubfc_phys_task 3
+python cross_dataset_vaead_me.py --model_name wesad --dataset_name verbio --k 5 --od 64 --y_dim 2 --exp 1
+
+
+python cross_dataset_vaead_me.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2 --dataset_name verbio
+python cross_dataset_vaead_me.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 0.5 --ubfc_phys_task 3 --dataset_name verbio
+python cross_dataset_vaead_me.py --model_name wesad --k 5 --od 64 --y_dim 2 --exp 1 --dataset_name verbio
+python cross_dataset_vaead_me.py --model_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5 --dataset_name ubfc_phys --ubfc_phys_task 2
+python cross_dataset_vaead_me.py --model_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5 --dataset_name wesad
+
+python perform_on_lowq_viastress.py --model_name wesad --k 5 --od 64 --y_dim 2 --exp 1 --dataset_name verbio
+python perform_on_lowq_viastress.py --model_name wesad --k 5 --od 64 --y_dim 3 --exp 0.5 --dataset_name wesad
+python perform_on_lowq_viastress.py --model_name wesad --k 5 --od 64 --y_dim 2 --exp 1 --dataset_name ubfc_phys --ubfc_phys_task 2
+python perform_on_lowq_viastress.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2 --dataset_name ubfc_phys
+python perform_on_lowq_viastress.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 0.5 --ubfc_phys_task 3 --dataset_name ubfc_phys
+python perform_on_lowq_viastress.py --model_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5 --dataset_name ubfc_phys --ubfc_phys_task 2
+python perform_on_lowq_viastress.py --model_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5 --dataset_name verbio
+
+python perform_on_lq_viastress.py --model_name wesad --k 5 --od 64 --y_dim 2 --exp 1
+python perform_on_lq_viastress.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 1 --ubfc_phys_task 2
+python perform_on_lq_viastress.py --model_name ubfc_phys --k 7 --od 64 --y_dim 2 --exp 0.5 --ubfc_phys_task 3
+python perform_on_lq_viastress.py --model_name verbio --k 5 --od 64 --y_dim 2 --exp 1.5

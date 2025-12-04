@@ -1,0 +1,12 @@
+@inproceedings{schmidt2018introducing,
+  title={Introducing wesad, a multimodal dataset for wearable stress and affect detection},
+  author={Schmidt, Philip and Reiss, Attila and Duerichen, Robert and Marberger, Claus and Van Laerhoven, Kristof},
+  booktitle={Proceedings of the 20th ACM international conference on multimodal interaction},
+  pages={400--408},
+  year={2018}
+}
+
+For more features extraction details, see:
+M. Malik. 1996. Task force of the European society of cardiology and the north American society of pacing and electrophysiology. Heart rate variability. Standards of measurement, physiological interpretation, and clinical use. Eur Heart J. 17 (1996), 354–381.
+J. Choi, B. Ahmed, and R. Gutierrez-Osuna. 2012. Development and evaluation of an ambulatory stress monitor based on wearable sensors. IEEE Transactions on Information Technology in Biomedicine 16, 2 (2012).
+J. Healey and R. Picard. 2005. Detecting stress during real-world driving tasks using physiological sensors. IEEE Transactions on Intelligent Transportation Systems 6, 2 (2005), 156–166.

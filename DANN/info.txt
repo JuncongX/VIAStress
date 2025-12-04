@@ -1,0 +1,21 @@
+Ganin Y, Lempitsky V. Unsupervised domain adaptation by backpropagation[C]//International conference on machine learning. PMLR, 2015: 1180-1189.
+
+https://github.com/fungtion/DANN_py3
+
+nohup python -u train_dann.py --y_dim 2 > DANN_2.out &
+nohup python -u train_dann.py --y_dim 3 > DANN_3.out &
+nohup python -u train_dann.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > DANN_2_UP2.out &
+nohup python -u train_dann.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > DANN_2_UP3.out &
+nohup python -u train_dann.py --dataset_name verbio --k 5 --y_dim 2 > DANN_2_VB.out &
+nohup python -u train_dann.py --dataset_name can_stress --y_dim 2 > DANN_2_CS.out &
+
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name wesad --k 5 --cross_dataset_name ubfc_phys --ubfc_phys_task 2 > DANN_w2u2.out &
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name wesad --k 5 --cross_dataset_name ubfc_phys --ubfc_phys_task 3 > DANN_w2u3.out &
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name wesad --k 5 --cross_dataset_name verbio --ubfc_phys_task 3 > DANN_w2v.out &
+nohup python -u train_dann_cross.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --cross_dataset_name wesad > DANN_2_u22w.out &
+nohup python -u train_dann_cross.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 --cross_dataset_name verbio > DANN_2_u22v.out &
+nohup python -u train_dann_cross.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --cross_dataset_name wesad > DANN_2_u32w.out &
+nohup python -u train_dann_cross.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 --cross_dataset_name verbio > DANN_2_u32v.out &
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name verbio --k 5 --cross_dataset_name wesad > DANN_v2w.out &
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name verbio --k 5 --cross_dataset_name ubfc_phys --ubfc_phys_task 2 > DANN_v2u2.out &
+nohup python -u train_dann_cross.py --y_dim 2 --dataset_name verbio --k 5 --cross_dataset_name ubfc_phys --ubfc_phys_task 3 > DANN_v2u3.out &

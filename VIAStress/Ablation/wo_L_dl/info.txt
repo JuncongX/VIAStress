@@ -1,0 +1,14 @@
+此实验的目的为将L_dl剔除
+
+nohup python -u train_vastress_wo_Ldl.py --y_dim 2 > VAStress_wo_Ldl_2.out &
+nohup python -u train_vastress_wo_Ldl.py --y_dim 3 > VAStress_wo_Ldl_3.out &
+nohup python -u train_vastress_wo_Ldl.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAStress_wo_Ldl_2_UP2.out &
+nohup python -u train_vastress_wo_Ldl.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAStress_wo_Ldl_2_UP3.out &
+nohup python -u train_vastress_wo_Ldl.py --dataset_name verbio --y_dim 2 --k 5 --epoch 150 > VAStress_wo_Ldl_2_VB.out &
+
+python confusion_matrix_vastress_ab.py --dataset_name wesad --k 5 --ab wo_Ldl --y_dim 2
+python confusion_matrix_vastress_ab.py --dataset_name ubfc_phys --k 7 --ab wo_Ldl --y_dim 2 --ubfc_phys_task 2
+python confusion_matrix_vastress_ab.py --dataset_name verbio --k 5 --ab wo_Ldl --y_dim 2
+
+python cross_dataset_vastress_ab.py --model_name wesad --dataset_name ubfc_phys --k 5 --ab wo_Ldl --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_vastress_ab.py --model_name ubfc_phys --dataset_name wesad --k 7 --ab wo_Ldl --y_dim 2 --ubfc_phys_task 2

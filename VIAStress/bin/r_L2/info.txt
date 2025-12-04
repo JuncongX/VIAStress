@@ -1,0 +1,12 @@
+此实验的目的为将L_1重构损失替换为L_2
+
+nohup python -u train_vastress_r_l2.py --y_dim 2 > VAStress_r_L2_2.out &
+nohup python -u train_vastress_r_l2.py --y_dim 3 > VAStress_r_L2_3.out &
+nohup python -u train_vastress_r_l2.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAStress_r_L2_2_UP2.out &
+nohup python -u train_vastress_r_l2.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAStress_r_L2_2_UP3.out &
+
+python confusion_matrix_vastress_ab.py --dataset_name wesad --k 5 --ab r_l2 --y_dim 2
+python confusion_matrix_vastress_ab.py --dataset_name ubfc_phys --k 7 --ab r_l2 --y_dim 2 --ubfc_phys_task 2
+
+python cross_dataset_vastress_ab.py --model_name wesad --dataset_name ubfc_phys --k 5 --ab r_l2 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_vastress_ab.py --model_name ubfc_phys --dataset_name wesad --k 7 --ab r_l2 --y_dim 2 --ubfc_phys_task 2

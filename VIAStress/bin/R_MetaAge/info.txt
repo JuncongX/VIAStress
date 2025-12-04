@@ -1,0 +1,12 @@
+此实验的目的为将可适应classifier结构替换为MetaAge中的可适应结构
+
+nohup python -u train_vastress_r_metaage.py --y_dim 2 > VAStress_r_metaage_2.out &
+nohup python -u train_vastress_r_metaage.py --y_dim 3 > VAStress_r_metaage_3.out &
+nohup python -u train_vastress_r_metaage.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAStress_r_metaage_2_UP2.out &
+nohup python -u train_vastress_r_metaage.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAStress_r_metaage_2_UP3.out &
+
+python confusion_matrix_vastress_ab.py --dataset_name wesad --k 5 --ab r_metaage --y_dim 2
+python confusion_matrix_vastress_ab.py --dataset_name ubfc_phys --k 7 --ab r_metaage --y_dim 2 --ubfc_phys_task 2
+
+python cross_dataset_vastress_ab.py --model_name wesad --dataset_name ubfc_phys --k 5 --ab r_metaage --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_vastress_ab.py --model_name ubfc_phys --dataset_name wesad --k 7 --ab r_metaage --y_dim 2 --ubfc_phys_task 2

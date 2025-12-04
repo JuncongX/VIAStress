@@ -1,0 +1,33 @@
+nohup python -u train_selfreg.py --y_dim 2 > SelfReg_2.out &
+nohup python -u train_selfreg.py --y_dim 3 > SelfReg_3.out &
+nohup python -u train_selfreg.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > SelfReg_2_UP2.out &
+nohup python -u train_selfreg.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > SelfReg_2_UP3.out &
+nohup python -u train_selfreg.py --dataset_name can_stress --y_dim 2 > SelfReg_2_CS.out &
+nohup python -u train_selfreg.py --dataset_name verbio --y_dim 2 --k 5 --epoch 150 > SelfReg_2_VB.out &
+
+python confusion_matrix_selfreg.py --dataset_name wesad --k 5 --y_dim 2
+python confusion_matrix_selfreg.py --dataset_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2
+python confusion_matrix_selfreg.py --dataset_name can_stress --k 5 --y_dim 2
+python confusion_matrix_selfreg.py --dataset_name verbio --k 5 --y_dim 2
+
+python cross_dataset_selfreg.py --model_name wesad --dataset_name ubfc_phys --k 5 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_selfreg.py --model_name wesad --dataset_name verbio --k 5 --y_dim 2
+python cross_dataset_selfreg.py --model_name ubfc_phys --dataset_name wesad --k 7 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_selfreg.py --model_name ubfc_phys --dataset_name verbio --k 7 --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_selfreg.py --model_name verbio --dataset_name wesad --k 5 --y_dim 2
+python cross_dataset_selfreg.py --model_name verbio --dataset_name ubfc_phys --k 5 --y_dim 2 --ubfc_phys_task 2
+
+python perform_on_lowq_selfreg.py --model_name wesad --k 5 --y_dim 2 --dataset_name wesad
+python perform_on_lowq_selfreg.py --model_name wesad --k 5 --y_dim 2 --dataset_name ubfc_phys --ubfc_phys_task 2
+python perform_on_lowq_selfreg.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2 --dataset_name ubfc_phys
+python perform_on_lowq_selfreg.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3 --dataset_name ubfc_phys
+python perform_on_lowq_selfreg.py --model_name verbio --k 5 --y_dim 2 --dataset_name verbio
+python perform_on_lowq_selfreg.py --model_name verbio --k 5 --y_dim 2 --dataset_name ubfc_phys --ubfc_phys_task 2
+
+python perform_on_lq_selfreg.py --model_name wesad --k 5 --y_dim 2
+python perform_on_lq_selfreg.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 2
+python perform_on_lq_selfreg.py --model_name ubfc_phys --k 7 --y_dim 2 --ubfc_phys_task 3
+python perform_on_lq_selfreg.py --model_name verbio --k 5 --y_dim 2
+
+Kim D, Yoo Y, Park S, et al. Selfreg: Self-supervised contrastive regularization for domain generalization[C]//Proceedings of the IEEE/CVF international conference on computer vision. 2021: 9619-9628.
+https://github.com/dnap512/SelfReg/blob/main/domainbed_code/algorithms.py

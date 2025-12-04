@@ -1,0 +1,13 @@
+此实验的目的为将可适应classifier的VAE替换为AE
+
+nohup python -u train_vaead_r_ae.py --y_dim 2 > VAEAD_r_ae_2.out &
+nohup python -u train_vaead_r_ae.py --y_dim 3 > VAEAD_r_ae_3.out &
+nohup python -u train_vaead_r_ae.py --dataset_name ubfc_phys --ubfc_phys_task 2 --y_dim 2 --k 7 > VAEAD_r_ae_2_UP2.out &
+nohup python -u train_vaead_r_ae.py --dataset_name ubfc_phys --ubfc_phys_task 3 --y_dim 2 --k 7 > VAEAD_r_ae_2_UP3.out &
+nohup python -u train_vaead_r_ae.py --dataset_name ubfc_phys --y_dim 3 --k 7 > VAEAD_r_ae_3_UP.out &
+
+python confusion_matrix_vaead_ab.py --dataset_name wesad --k 5 --ab r_ae --y_dim 2
+python confusion_matrix_vaead_ab.py --dataset_name ubfc_phys --k 7 --ab r_ae --y_dim 2 --ubfc_phys_task 2
+
+python cross_dataset_vaead_ab.py --model_name wesad --dataset_name ubfc_phys --k 5 --ab r_ae --y_dim 2 --ubfc_phys_task 2
+python cross_dataset_vaead_ab.py --model_name ubfc_phys --dataset_name wesad --k 7 --ab r_ae --y_dim 2 --ubfc_phys_task 2
